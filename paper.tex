@@ -65,28 +65,29 @@ Crack detection,
 \begin{itemize}
 	\item Some basics and marketing
 	\item  State-of-the-art methods
+	\item Many algorithms have been proposed for crack detection in Si-PV, but no standard or reference algorithm has been established so far
+	\item The computer science standard to publish the code (use for comparison) is often not followed  
+	\item Aim of this work: establish a reference algorithm for scientific community which may be used as benchmark
 \end{itemize}
  
 
-\section{Materials}
+\section{Materials \& Methods}
 \begin{itemize}
-	\item PV cells (mono/polycrystalline cells and their differences)
-	\item  PL and EL (maybe some other techniques, the advantage of EL over them)
-\end{itemize}
-
-
-\section{Methods}
-
-\subsection{Preprocessing}
-\begin{itemize}
-	\item Fourier Filtering
-	\item ROI of the solar cell
-	\item Noise-reduction filters
+	\item Samples 
+	\subitem EL
+	\subitem Polycrystalline because more difficult for automatized segmentation
+	\subitem Number of images
+	
+	\item Preprocessing
+	\subitem Fourier Filtering
+	\subitem ROI of the solar cell
+	\subitem Noise-reduction filters
 \end{itemize}
 
 \subsection{Crack Detection}
 \begin{itemize}
 	\item BP description (as one of the computer vision techniques used in industry)
+	\item Vesselness
 	\item  Adapted Vesselness
 \end{itemize}
 
